@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9412DF83E1BE569283949505 /* Pods_MeetingXome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A779C35877F54109A5FF3CD /* Pods_MeetingXome.framework */; };
+		A26FF86FFB70E75A4D9CEC52 /* Pods_MeetingXomeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F76DFE255B03C13F8FDC438 /* Pods_MeetingXomeUITests.framework */; };
+		ADBCECA1255F7B6BED4DBE84 /* Pods_MeetingXomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FA4C4CD002BB27BA2E829B /* Pods_MeetingXomeTests.framework */; };
+		AF9D64AA22C7A7D4008BB930 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9D64A922C7A7D4008BB930 /* AppConstants.swift */; };
+		AF9D64AC22C7ABFB008BB930 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9D64AB22C7ABFB008BB930 /* AlertHelper.swift */; };
+		AFFA783F22C34D2E00A9F8F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA783E22C34D2E00A9F8F0 /* AppDelegate.swift */; };
+		AFFA784422C34D2E00A9F8F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFA784222C34D2E00A9F8F0 /* Main.storyboard */; };
+		AFFA784722C34D2E00A9F8F0 /* MeetingXome.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFFA784522C34D2E00A9F8F0 /* MeetingXome.xcdatamodeld */; };
+		AFFA784922C34D2E00A9F8F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFFA784822C34D2E00A9F8F0 /* Assets.xcassets */; };
+		AFFA784C22C34D2E00A9F8F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFA784A22C34D2E00A9F8F0 /* LaunchScreen.storyboard */; };
+		AFFA785722C34D2E00A9F8F0 /* LoginRegistrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA785622C34D2E00A9F8F0 /* LoginRegistrationTests.swift */; };
+		AFFA786222C34D7100A9F8F0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA786122C34D7100A9F8F0 /* LoginViewController.swift */; };
+		AFFA786422C35B0000A9F8F0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA786322C35B0000A9F8F0 /* HomeViewController.swift */; };
+		AFFA786622C3658500A9F8F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFFA786522C3658500A9F8F0 /* GoogleService-Info.plist */; };
+		AFFA786922C3673200A9F8F0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA786822C3673200A9F8F0 /* RegisterViewController.swift */; };
+		AFFA786B22C36A5B00A9F8F0 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA786A22C36A5B00A9F8F0 /* RegistrationViewModel.swift */; };
+		AFFA786D22C36B0500A9F8F0 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA786C22C36B0500A9F8F0 /* Dynamic.swift */; };
+		AFFA787122C36FFA00A9F8F0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA787022C36FFA00A9F8F0 /* User.swift */; };
+		AFFA787922C3AFD700A9F8F0 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA787822C3AFD700A9F8F0 /* AddNoteViewController.swift */; };
+		AFFA787B22C3AFF900A9F8F0 /* AddNoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA787A22C3AFF900A9F8F0 /* AddNoteViewModel.swift */; };
+		AFFA787D22C3B00900A9F8F0 /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA787C22C3B00900A9F8F0 /* Meeting.swift */; };
+		AFFA787F22C3E44100A9F8F0 /* MeetingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA787E22C3E44100A9F8F0 /* MeetingListViewModel.swift */; };
+		AFFA788122C4B71E00A9F8F0 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA788022C4B71D00A9F8F0 /* CustomTextField.swift */; };
+		AFFA788422C4E6CB00A9F8F0 /* FirebaseNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA788322C4E6CB00A9F8F0 /* FirebaseNetworking.swift */; };
+		AFFA788622C4FDAB00A9F8F0 /* MeetingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA788522C4FDAB00A9F8F0 /* MeetingTests.swift */; };
+		AFFA789C22C6498700A9F8F0 /* MeetingXomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA789B22C6498700A9F8F0 /* MeetingXomeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFFA785322C34D2E00A9F8F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFFA783322C34D2E00A9F8F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFFA783A22C34D2E00A9F8F0;
+			remoteInfo = MeetingXome;
+		};
+		AFFA789E22C6498700A9F8F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFFA783322C34D2E00A9F8F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFFA783A22C34D2E00A9F8F0;
+			remoteInfo = MeetingXome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014C3F5A8CC449BE88A3FCAE /* Pods-MeetingXome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingXome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeetingXome/Pods-MeetingXome.debug.xcconfig"; sourceTree = "<group>"; };
+		0A779C35877F54109A5FF3CD /* Pods_MeetingXome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetingXome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F76DFE255B03C13F8FDC438 /* Pods_MeetingXomeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetingXomeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA1FBEF79F8EE0960572EF3 /* Pods-MeetingXomeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingXomeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeetingXomeUITests/Pods-MeetingXomeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3220C2B6EAB9CF64C10173F3 /* Pods-MeetingXomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingXomeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeetingXomeTests/Pods-MeetingXomeTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C78883A6C8401E1FB27BF7A /* Pods-MeetingXomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingXomeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeetingXomeTests/Pods-MeetingXomeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A94379FF8F11EB9E295A7A5E /* Pods-MeetingXomeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingXomeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeetingXomeUITests/Pods-MeetingXomeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AF9D64A922C7A7D4008BB930 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		AF9D64AB22C7ABFB008BB930 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		AFFA783B22C34D2E00A9F8F0 /* MeetingXome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingXome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFA783E22C34D2E00A9F8F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFFA784322C34D2E00A9F8F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFFA784622C34D2E00A9F8F0 /* MeetingXome.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeetingXome.xcdatamodel; sourceTree = "<group>"; };
+		AFFA784822C34D2E00A9F8F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFFA784B22C34D2E00A9F8F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFFA784D22C34D2E00A9F8F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFA785222C34D2E00A9F8F0 /* MeetingXomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingXomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFA785622C34D2E00A9F8F0 /* LoginRegistrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegistrationTests.swift; sourceTree = "<group>"; };
+		AFFA785822C34D2E00A9F8F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFA786122C34D7100A9F8F0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AFFA786322C35B0000A9F8F0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AFFA786522C3658500A9F8F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AFFA786822C3673200A9F8F0 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AFFA786A22C36A5B00A9F8F0 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		AFFA786C22C36B0500A9F8F0 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		AFFA787022C36FFA00A9F8F0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AFFA787822C3AFD700A9F8F0 /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+		AFFA787A22C3AFF900A9F8F0 /* AddNoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewModel.swift; sourceTree = "<group>"; };
+		AFFA787C22C3B00900A9F8F0 /* Meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
+		AFFA787E22C3E44100A9F8F0 /* MeetingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingListViewModel.swift; sourceTree = "<group>"; };
+		AFFA788022C4B71D00A9F8F0 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		AFFA788322C4E6CB00A9F8F0 /* FirebaseNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseNetworking.swift; sourceTree = "<group>"; };
+		AFFA788522C4FDAB00A9F8F0 /* MeetingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTests.swift; sourceTree = "<group>"; };
+		AFFA789922C6498700A9F8F0 /* MeetingXomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingXomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFA789B22C6498700A9F8F0 /* MeetingXomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingXomeUITests.swift; sourceTree = "<group>"; };
+		AFFA789D22C6498700A9F8F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEAACD718A4C3CFC862E3319 /* Pods-MeetingXome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingXome.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeetingXome/Pods-MeetingXome.release.xcconfig"; sourceTree = "<group>"; };
+		F3FA4C4CD002BB27BA2E829B /* Pods_MeetingXomeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetingXomeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFFA783822C34D2E00A9F8F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9412DF83E1BE569283949505 /* Pods_MeetingXome.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFA784F22C34D2E00A9F8F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBCECA1255F7B6BED4DBE84 /* Pods_MeetingXomeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFA789622C6498700A9F8F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26FF86FFB70E75A4D9CEC52 /* Pods_MeetingXomeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9014E3F79615F2C0EAF87402 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				014C3F5A8CC449BE88A3FCAE /* Pods-MeetingXome.debug.xcconfig */,
+				DEAACD718A4C3CFC862E3319 /* Pods-MeetingXome.release.xcconfig */,
+				8C78883A6C8401E1FB27BF7A /* Pods-MeetingXomeTests.debug.xcconfig */,
+				3220C2B6EAB9CF64C10173F3 /* Pods-MeetingXomeTests.release.xcconfig */,
+				1CA1FBEF79F8EE0960572EF3 /* Pods-MeetingXomeUITests.debug.xcconfig */,
+				A94379FF8F11EB9E295A7A5E /* Pods-MeetingXomeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFFA783222C34D2E00A9F8F0 = {
+			isa = PBXGroup;
+			children = (
+				AFFA783D22C34D2E00A9F8F0 /* MeetingXome */,
+				AFFA785522C34D2E00A9F8F0 /* MeetingXomeTests */,
+				AFFA789A22C6498700A9F8F0 /* MeetingXomeUITests */,
+				AFFA783C22C34D2E00A9F8F0 /* Products */,
+				9014E3F79615F2C0EAF87402 /* Pods */,
+				C7B92D50FD6168F171DB0D74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AFFA783C22C34D2E00A9F8F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA783B22C34D2E00A9F8F0 /* MeetingXome.app */,
+				AFFA785222C34D2E00A9F8F0 /* MeetingXomeTests.xctest */,
+				AFFA789922C6498700A9F8F0 /* MeetingXomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFFA783D22C34D2E00A9F8F0 /* MeetingXome */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA788222C4E6A400A9F8F0 /* Networking */,
+				AFFA787722C3AE2100A9F8F0 /* Common */,
+				AFFA787622C3AE1B00A9F8F0 /* Models */,
+				AFFA787522C3AE0000A9F8F0 /* Views */,
+				AFFA786722C3671500A9F8F0 /* ViewModels */,
+				AFFA784822C34D2E00A9F8F0 /* Assets.xcassets */,
+				AFFA786522C3658500A9F8F0 /* GoogleService-Info.plist */,
+				AFFA784D22C34D2E00A9F8F0 /* Info.plist */,
+				AFFA784522C34D2E00A9F8F0 /* MeetingXome.xcdatamodeld */,
+			);
+			path = MeetingXome;
+			sourceTree = "<group>";
+		};
+		AFFA785522C34D2E00A9F8F0 /* MeetingXomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA785622C34D2E00A9F8F0 /* LoginRegistrationTests.swift */,
+				AFFA785822C34D2E00A9F8F0 /* Info.plist */,
+				AFFA788522C4FDAB00A9F8F0 /* MeetingTests.swift */,
+			);
+			path = MeetingXomeTests;
+			sourceTree = "<group>";
+		};
+		AFFA786722C3671500A9F8F0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA786A22C36A5B00A9F8F0 /* RegistrationViewModel.swift */,
+				AFFA787A22C3AFF900A9F8F0 /* AddNoteViewModel.swift */,
+				AFFA787E22C3E44100A9F8F0 /* MeetingListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AFFA787522C3AE0000A9F8F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA786122C34D7100A9F8F0 /* LoginViewController.swift */,
+				AFFA786822C3673200A9F8F0 /* RegisterViewController.swift */,
+				AFFA786322C35B0000A9F8F0 /* HomeViewController.swift */,
+				AFFA787822C3AFD700A9F8F0 /* AddNoteViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AFFA787622C3AE1B00A9F8F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA787022C36FFA00A9F8F0 /* User.swift */,
+				AFFA787C22C3B00900A9F8F0 /* Meeting.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AFFA787722C3AE2100A9F8F0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA784222C34D2E00A9F8F0 /* Main.storyboard */,
+				AFFA784A22C34D2E00A9F8F0 /* LaunchScreen.storyboard */,
+				AFFA783E22C34D2E00A9F8F0 /* AppDelegate.swift */,
+				AFFA786C22C36B0500A9F8F0 /* Dynamic.swift */,
+				AFFA788022C4B71D00A9F8F0 /* CustomTextField.swift */,
+				AF9D64A922C7A7D4008BB930 /* AppConstants.swift */,
+				AF9D64AB22C7ABFB008BB930 /* AlertHelper.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AFFA788222C4E6A400A9F8F0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA788322C4E6CB00A9F8F0 /* FirebaseNetworking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		AFFA789A22C6498700A9F8F0 /* MeetingXomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA789B22C6498700A9F8F0 /* MeetingXomeUITests.swift */,
+				AFFA789D22C6498700A9F8F0 /* Info.plist */,
+			);
+			path = MeetingXomeUITests;
+			sourceTree = "<group>";
+		};
+		C7B92D50FD6168F171DB0D74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A779C35877F54109A5FF3CD /* Pods_MeetingXome.framework */,
+				F3FA4C4CD002BB27BA2E829B /* Pods_MeetingXomeTests.framework */,
+				0F76DFE255B03C13F8FDC438 /* Pods_MeetingXomeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFFA783A22C34D2E00A9F8F0 /* MeetingXome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFA785B22C34D2E00A9F8F0 /* Build configuration list for PBXNativeTarget "MeetingXome" */;
+			buildPhases = (
+				1B9B849F468ABEF97B11B5B0 /* [CP] Check Pods Manifest.lock */,
+				AFFA783722C34D2E00A9F8F0 /* Sources */,
+				AFFA783822C34D2E00A9F8F0 /* Frameworks */,
+				AFFA783922C34D2E00A9F8F0 /* Resources */,
+				EE8B3E541076AAF1236218A2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetingXome;
+			productName = MeetingXome;
+			productReference = AFFA783B22C34D2E00A9F8F0 /* MeetingXome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFFA785122C34D2E00A9F8F0 /* MeetingXomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFA785E22C34D2E00A9F8F0 /* Build configuration list for PBXNativeTarget "MeetingXomeTests" */;
+			buildPhases = (
+				97A634725F294987BD519336 /* [CP] Check Pods Manifest.lock */,
+				AFFA784E22C34D2E00A9F8F0 /* Sources */,
+				AFFA784F22C34D2E00A9F8F0 /* Frameworks */,
+				AFFA785022C34D2E00A9F8F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFFA785422C34D2E00A9F8F0 /* PBXTargetDependency */,
+			);
+			name = MeetingXomeTests;
+			productName = MeetingXomeTests;
+			productReference = AFFA785222C34D2E00A9F8F0 /* MeetingXomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFFA789822C6498700A9F8F0 /* MeetingXomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFA78A022C6498700A9F8F0 /* Build configuration list for PBXNativeTarget "MeetingXomeUITests" */;
+			buildPhases = (
+				137A71E4AD3FA64F295E3D99 /* [CP] Check Pods Manifest.lock */,
+				AFFA789522C6498700A9F8F0 /* Sources */,
+				AFFA789622C6498700A9F8F0 /* Frameworks */,
+				AFFA789722C6498700A9F8F0 /* Resources */,
+				62327EE4C25B4FDE4AA1E8AF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFFA789F22C6498700A9F8F0 /* PBXTargetDependency */,
+			);
+			name = MeetingXomeUITests;
+			productName = MeetingXomeUITests;
+			productReference = AFFA789922C6498700A9F8F0 /* MeetingXomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFFA783322C34D2E00A9F8F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Nitesh Singh";
+				TargetAttributes = {
+					AFFA783A22C34D2E00A9F8F0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AFFA785122C34D2E00A9F8F0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AFFA783A22C34D2E00A9F8F0;
+					};
+					AFFA789822C6498700A9F8F0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AFFA783A22C34D2E00A9F8F0;
+					};
+				};
+			};
+			buildConfigurationList = AFFA783622C34D2E00A9F8F0 /* Build configuration list for PBXProject "MeetingXome" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFFA783222C34D2E00A9F8F0;
+			productRefGroup = AFFA783C22C34D2E00A9F8F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFFA783A22C34D2E00A9F8F0 /* MeetingXome */,
+				AFFA785122C34D2E00A9F8F0 /* MeetingXomeTests */,
+				AFFA789822C6498700A9F8F0 /* MeetingXomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFFA783922C34D2E00A9F8F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFA784C22C34D2E00A9F8F0 /* LaunchScreen.storyboard in Resources */,
+				AFFA786622C3658500A9F8F0 /* GoogleService-Info.plist in Resources */,
+				AFFA784922C34D2E00A9F8F0 /* Assets.xcassets in Resources */,
+				AFFA784422C34D2E00A9F8F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFA785022C34D2E00A9F8F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFA789722C6498700A9F8F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		137A71E4AD3FA64F295E3D99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeetingXomeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B9B849F468ABEF97B11B5B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeetingXome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62327EE4C25B4FDE4AA1E8AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MeetingXomeUITests/Pods-MeetingXomeUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeetingXomeUITests/Pods-MeetingXomeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97A634725F294987BD519336 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeetingXomeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE8B3E541076AAF1236218A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MeetingXome/Pods-MeetingXome-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeetingXome/Pods-MeetingXome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFFA783722C34D2E00A9F8F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFA788122C4B71E00A9F8F0 /* CustomTextField.swift in Sources */,
+				AFFA787B22C3AFF900A9F8F0 /* AddNoteViewModel.swift in Sources */,
+				AFFA786222C34D7100A9F8F0 /* LoginViewController.swift in Sources */,
+				AFFA787F22C3E44100A9F8F0 /* MeetingListViewModel.swift in Sources */,
+				AF9D64AC22C7ABFB008BB930 /* AlertHelper.swift in Sources */,
+				AF9D64AA22C7A7D4008BB930 /* AppConstants.swift in Sources */,
+				AFFA786B22C36A5B00A9F8F0 /* RegistrationViewModel.swift in Sources */,
+				AFFA787922C3AFD700A9F8F0 /* AddNoteViewController.swift in Sources */,
+				AFFA786D22C36B0500A9F8F0 /* Dynamic.swift in Sources */,
+				AFFA786922C3673200A9F8F0 /* RegisterViewController.swift in Sources */,
+				AFFA788422C4E6CB00A9F8F0 /* FirebaseNetworking.swift in Sources */,
+				AFFA787122C36FFA00A9F8F0 /* User.swift in Sources */,
+				AFFA784722C34D2E00A9F8F0 /* MeetingXome.xcdatamodeld in Sources */,
+				AFFA783F22C34D2E00A9F8F0 /* AppDelegate.swift in Sources */,
+				AFFA787D22C3B00900A9F8F0 /* Meeting.swift in Sources */,
+				AFFA786422C35B0000A9F8F0 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFA784E22C34D2E00A9F8F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFA785722C34D2E00A9F8F0 /* LoginRegistrationTests.swift in Sources */,
+				AFFA788622C4FDAB00A9F8F0 /* MeetingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFA789522C6498700A9F8F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFA789C22C6498700A9F8F0 /* MeetingXomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFFA785422C34D2E00A9F8F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFFA783A22C34D2E00A9F8F0 /* MeetingXome */;
+			targetProxy = AFFA785322C34D2E00A9F8F0 /* PBXContainerItemProxy */;
+		};
+		AFFA789F22C6498700A9F8F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFFA783A22C34D2E00A9F8F0 /* MeetingXome */;
+			targetProxy = AFFA789E22C6498700A9F8F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFFA784222C34D2E00A9F8F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFFA784322C34D2E00A9F8F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFFA784A22C34D2E00A9F8F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFFA784B22C34D2E00A9F8F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFFA785922C34D2E00A9F8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFFA785A22C34D2E00A9F8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFFA785C22C34D2E00A9F8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 014C3F5A8CC449BE88A3FCAE /* Pods-MeetingXome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeetingXome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitesh.Xome.MeetingXome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFFA785D22C34D2E00A9F8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEAACD718A4C3CFC862E3319 /* Pods-MeetingXome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeetingXome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitesh.Xome.MeetingXome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFFA785F22C34D2E00A9F8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C78883A6C8401E1FB27BF7A /* Pods-MeetingXomeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeetingXomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitesh.Xome.MeetingXomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetingXome.app/MeetingXome";
+			};
+			name = Debug;
+		};
+		AFFA786022C34D2E00A9F8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3220C2B6EAB9CF64C10173F3 /* Pods-MeetingXomeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeetingXomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitesh.Xome.MeetingXomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetingXome.app/MeetingXome";
+			};
+			name = Release;
+		};
+		AFFA78A122C6498700A9F8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CA1FBEF79F8EE0960572EF3 /* Pods-MeetingXomeUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+				);
+				INFOPLIST_FILE = MeetingXomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitesh.Xome.MeetingXomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeetingXome;
+			};
+			name = Debug;
+		};
+		AFFA78A222C6498700A9F8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A94379FF8F11EB9E295A7A5E /* Pods-MeetingXomeUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+				);
+				INFOPLIST_FILE = MeetingXomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitesh.Xome.MeetingXomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeetingXome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFFA783622C34D2E00A9F8F0 /* Build configuration list for PBXProject "MeetingXome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFA785922C34D2E00A9F8F0 /* Debug */,
+				AFFA785A22C34D2E00A9F8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFA785B22C34D2E00A9F8F0 /* Build configuration list for PBXNativeTarget "MeetingXome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFA785C22C34D2E00A9F8F0 /* Debug */,
+				AFFA785D22C34D2E00A9F8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFA785E22C34D2E00A9F8F0 /* Build configuration list for PBXNativeTarget "MeetingXomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFA785F22C34D2E00A9F8F0 /* Debug */,
+				AFFA786022C34D2E00A9F8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFA78A022C6498700A9F8F0 /* Build configuration list for PBXNativeTarget "MeetingXomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFA78A122C6498700A9F8F0 /* Debug */,
+				AFFA78A222C6498700A9F8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AFFA784522C34D2E00A9F8F0 /* MeetingXome.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFFA784622C34D2E00A9F8F0 /* MeetingXome.xcdatamodel */,
+			);
+			currentVersion = AFFA784622C34D2E00A9F8F0 /* MeetingXome.xcdatamodel */;
+			path = MeetingXome.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AFFA783322C34D2E00A9F8F0 /* Project object */;
+}

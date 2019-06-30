@@ -1,0 +1,6 @@
+framework module Pods_MeetingXome {
+  umbrella header "Pods-MeetingXome-umbrella.h"
+
+  export *
+  module * { export * }
+}
