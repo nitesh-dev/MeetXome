@@ -2,7 +2,7 @@
 //  RegistrationViewModel.swift
 //  MeetingXome
 //
-//  Created by Cognizant Technology Solutions # 2 on 26/06/19.
+//  Created by Nitesh Singh # 2 on 29/06/19.
 //  Copyright © 2019 Nitesh Singh. All rights reserved.
 //
 
@@ -55,13 +55,13 @@ extension UserViewModel {
     func validate() -> ValidationState {
         
         if user.userName.isEmpty || user.userPassword.isEmpty || user.userEmail.isEmpty {
-            return .invalid("Please enter required fields")
+            return .invalid("Please enter all required fields")
         }
         if user.userName.count < minUserNameLength {
-            return .invalid("Please enter atleast 5 characters user name")
+            return .invalid("User name should be atleast 5 characters long")
         }
         if user.userPassword.count < minPasswordLength {
-            return .invalid("Please enter atleast 5 characters password")
+            return .invalid("Password should be atleast 5 characters long")
         }
         return .valid
     }

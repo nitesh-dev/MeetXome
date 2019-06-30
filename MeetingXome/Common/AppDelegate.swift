@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MeetingXome
 //
-//  Created by Cognizant Technology Solutions # 2 on 26/06/19.
+//  Created by Nitesh Singh # 2 on 29/06/19.
 //  Copyright © 2019 Nitesh Singh. All rights reserved.
 //
 
